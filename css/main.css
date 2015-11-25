@@ -95,9 +95,45 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.button {
+  border-radius: 50px;
+}
+
+.mainnav {
+  margin-top: 0px;
+  border: 1px red solid;
+  position: relative;
+}
 
 
+.mainnav li {
+  display: inline-block;
 
+}
+
+.worldcare {
+  background: url(../img/boyheaderimg.jpg) no-repeat center top;
+  background-size: cover;
+  height: 600px;
+  margin-top: 0px;
+  position: relative;
+}
+
+.patients {
+
+}
+
+.process {
+  background-color: #FDD250;
+  color: #4A5C66;
+  overflow: hidden;
+  border: red solid 1px;
+  text-align: center;
+}
+
+.step {
+  display: inline-block;
+}
 
 
 
