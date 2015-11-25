@@ -94,10 +94,17 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
 
+}
 .button {
   border-radius: 50px;
 }
+
+li {
+  list-style-type: none;
+}
+
 
 .mainnav {
   margin-top: 0px;
@@ -129,14 +136,42 @@ textarea {
   overflow: hidden;
   border: red solid 1px;
   text-align: center;
+  padding-bottom: 0px;
 }
 
 .step {
   display: inline-block;
 }
 
+.Universal_Fund {
+  background: url(../img/herofund.jpg) no-repeat center top;
+  background-size: cover;
+  height: 600px;
+  margin-top: 0px;
+  position: relative;
+  color: white;
+}
 
+.press_slider {
+  text-align: center;
+  background-color: #426C81;
+  color: white;
+}
 
+.guarantee {
+  background-color: #324048;
+  color: white;
+}
+
+.guarantee p {
+  float: right;
+}
+
+.footer {
+    border-top: .125em solid white;
+    background-color: #324048;
+    color: white;
+}
 
 
 
