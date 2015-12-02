@@ -99,6 +99,14 @@ body {
 }
 .button {
   border-radius: 50px;
+  border: 1px solid #4A5C66;
+  display: inline-block;
+  padding: 1em 3em;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 li {
@@ -127,21 +135,71 @@ li {
   color: white;
 }
 
-.patients {
+.worldcare .text {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ text-align: center;
+}
 
+.worldcare .note {
+  position: absolute;
+  bottom: 5px;
+  right: 40px;
+}
+
+.patients .title {
+ text-align: center;
+}
+
+.patients .patient {
+  float: left;
+  width: 33%;
+  border: red 1px solid;
+  text-align: center;
+}
+
+.patient p {
+  color: black;
+  padding-left: 2em;
+  padding-right: 2em;
+  text-align: justify;
+}
+
+.patient .money {
+  text-align: center;
+}
+.patients .button {
+  text-align: center;
+  color: #4A5C66;
 }
 
 .process {
+  clear: both;
   background-color: #FDD250;
   color: #4A5C66;
   overflow: hidden;
-  border: red solid 1px;
   text-align: center;
-  padding-bottom: 0px;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 .step {
+  float: left;
+  width: 33%;
+  line-height: 1;
+}
+
+.process .button {
+  color: #4A5C66;
+  border: 1px solid #4A5C66;
   display: inline-block;
+  padding: 1em 3em;
+}
+
+.process p {
+  color: #4A5C66;
 }
 
 .Universal_Fund {
@@ -153,19 +211,63 @@ li {
   color: white;
 }
 
+.Universal_Fund .text {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ text-align: center;
+}
+
+.Universal_Fund .note {
+  position: absolute;
+  bottom: 5px;
+  right: 40px;
+}
+
 .press_slider {
+  padding-top: 2em;
+  padding-bottom: 4em;
   text-align: center;
   background-color: #426C81;
   color: white;
 }
 
+.press_slider blockquote {
+  font-style: italic;
+}
+
+.press_slider p {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 1em;
+}
+
+.press_slider a {
+  color: #FFC729;
+}
+
+.press_slider .date {
+  font-size: .75em;
+}
+
 .guarantee {
   background-color: #324048;
   color: white;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.guarantee img {
+  padding-left: 6em;
+}
+.guarantee p {
+  display: inline-block;
+  text-align: center;
+  padding-left: 2em;
 }
 
-.guarantee p {
-  float: right;
+.guarantee a {
+  color: #FFC729;
 }
 
 .footer {
@@ -173,7 +275,6 @@ li {
     background-color: #324048;
     color: white;
 }
-
 
 
 
