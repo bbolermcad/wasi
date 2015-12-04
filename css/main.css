@@ -113,19 +113,37 @@ li {
   list-style-type: none;
 }
 
+.note {
+  font-style: italic;
+  font-size: .8em;
+}
 
+.logo {
+  position: absolute;
+  top: 25px;
+  left: 90px;
+  z-index: 10;
+}
 .mainnav {
   margin-top: 0px;
-  border: 1px red solid;
-  position: relative;
+  position: absolute;
+  top: 20px;
+  left: 700px;
+  font-size: .8em;
+  z-index: 10;
+  text-transform: capitalize;
 }
 
 
 .mainnav li {
   display: inline-block;
-
+  padding-right: 15px;
+  padding-top: 0px;
 }
 
+.mainnav a:hover {
+  text-decoration: underline;
+}
 .worldcare {
   background: url(../img/boyheaderimg.jpg) no-repeat center top;
   background-size: cover;
@@ -149,6 +167,14 @@ li {
   right: 40px;
 }
 
+.worldcare .button {
+  background-color: #00B1DA;
+}
+
+.patients {
+  padding-bottom: 2em;
+  clear: both;
+}
 .patients .title {
  text-align: center;
 }
@@ -158,6 +184,7 @@ li {
   width: 33%;
   border: red 1px solid;
   text-align: center;
+  padding-bottom: 0px;
 }
 
 .patient p {
@@ -165,21 +192,23 @@ li {
   padding-left: 2em;
   padding-right: 2em;
   text-align: justify;
+  padding-bottom: 0px;
 }
 
 .patient .money {
   text-align: center;
 }
 .patients .button {
+  margin-left: 40%;
   text-align: center;
   color: #4A5C66;
+  margin-top: 2em;
 }
 
 .process {
-  clear: both;
+  clear: left;
   background-color: #FDD250;
   color: #4A5C66;
-  overflow: hidden;
   text-align: center;
   padding-top: 2em;
   padding-bottom: 2em;
@@ -194,8 +223,6 @@ li {
 .process .button {
   color: #4A5C66;
   border: 1px solid #4A5C66;
-  display: inline-block;
-  padding: 1em 3em;
 }
 
 .process p {
@@ -225,8 +252,13 @@ li {
   right: 40px;
 }
 
+.Universal_Fund .button {
+  background-color: #00B1DA;
+  color: white;
+  margin-left: 0%;
+}
 .press_slider {
-  padding-top: 2em;
+  padding-top: 4em;
   padding-bottom: 4em;
   text-align: center;
   background-color: #426C81;
@@ -235,6 +267,8 @@ li {
 
 .press_slider blockquote {
   font-style: italic;
+  line-height: 1.5;
+  padding-bottom: 2em;
 }
 
 .press_slider p {
@@ -274,6 +308,7 @@ li {
     border-top: .125em solid white;
     background-color: #324048;
     color: white;
+    display: block;
 }
 
 
