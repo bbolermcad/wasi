@@ -94,14 +94,23 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body {
+   @font-face {
+       font-family: Whitney;
+       src: url(../fonts/whitneylight.ttf);
+   }
 
+body {
+  font-family: Whitney, sans-serif;
+  font-size: 1.1em;
 }
+
 .button {
   border-radius: 50px;
   border: 1px solid #4A5C66;
   display: inline-block;
-  padding: 1em 3em;
+  padding: 1em 2.5em;
+  padding-bottom: .2em;
+  font-weight: bold;
 }
 
 a {
@@ -129,9 +138,9 @@ li {
   position: absolute;
   top: 20px;
   left: 700px;
-  font-size: .8em;
+  font-size: .65em;
   z-index: 10;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 
 
@@ -159,6 +168,15 @@ li {
  left: 50%;
  transform: translate(-50%, -50%);
  text-align: center;
+ width: 100%;
+}
+
+.worldcare h1 {
+  font-size: 2.8em;
+}
+
+.worldcare .title {
+  line-height: 0;
 }
 
 .worldcare .note {
@@ -169,6 +187,8 @@ li {
 
 .worldcare .button {
   background-color: #00B1DA;
+  border: none;
+  font-size: 1.3em;
 }
 
 .patients {
@@ -214,6 +234,10 @@ li {
   padding-bottom: 2em;
 }
 
+.process h3 {
+  font-weight: bold;
+}
+
 .step {
   float: left;
   width: 33%;
@@ -223,6 +247,7 @@ li {
 .process .button {
   color: #4A5C66;
   border: 1px solid #4A5C66;
+  text-align: none;
 }
 
 .process p {
@@ -259,6 +284,8 @@ li {
   background-color: #00B1DA;
   color: white;
   margin-left: 0%;
+  border: none;
+  font-size: 1.3em;
 }
 .press_slider {
   padding-top: 4em;
