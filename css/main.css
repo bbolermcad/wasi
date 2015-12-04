@@ -169,15 +169,14 @@ li {
  transform: translate(-50%, -50%);
  text-align: center;
  width: 100%;
+ line-height: .5;
+ font-weight: lighter;
 }
 
 .worldcare h1 {
   font-size: 2.8em;
 }
 
-.worldcare .title {
-  line-height: 0;
-}
 
 .worldcare .note {
   position: absolute;
@@ -189,14 +188,21 @@ li {
   background-color: #00B1DA;
   border: none;
   font-size: 1.3em;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .patients {
+  padding-top: 4em;
   padding-bottom: 2em;
   clear: both;
 }
 .patients .title {
  text-align: center;
+ line-height: .5;
 }
 
 .patients .patient {
@@ -304,7 +310,7 @@ li {
 .press_slider p {
   text-transform: uppercase;
   text-align: center;
-  padding-top: 1em;
+  font-size: .8em;
 }
 
 .press_slider a {
@@ -312,7 +318,7 @@ li {
 }
 
 .press_slider .date {
-  font-size: .75em;
+  font-size: .7em;
 }
 
 .guarantee {
@@ -322,12 +328,12 @@ li {
   padding-bottom: 2em;
 }
 .guarantee img {
-  padding-left: 6em;
+  margin-left: 10em;
 }
 .guarantee p {
   display: inline-block;
   text-align: center;
-  padding-left: 2em;
+  padding-left: 1.5em;
 }
 
 .guarantee a {
@@ -338,11 +344,33 @@ li {
     border-top: .125em solid white;
     background-color: #324048;
     color: white;
-    display: block;
+    font-size: .8em;
+    overflow: auto;
 }
 
+.footnav {
+  float:left;
+}
 
+.footnav li {
+  display: inline-block;
+  padding-right: .5em;
+}
 
+.infonav {
+float: left;
+}
+
+.infonav li {
+  font-size: .75em;
+  display: inline-block;
+}
+
+.footer p {
+  font-size: .75em;
+  color: #7B848A;
+  float: left;
+}
 
 
 
