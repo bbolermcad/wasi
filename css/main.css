@@ -198,7 +198,7 @@ li {
 .patients {
   padding-top: 4em;
   padding-bottom: 2em;
-  clear: both;
+  color: black;
 }
 .patients .title {
  text-align: center;
@@ -206,19 +206,25 @@ li {
 }
 
 .patients .patient {
+  color: black;
   float: left;
-  width: 33%;
+  margin-left: 2em;
+  width: 330px;
   border: red 1px solid;
   text-align: center;
   padding-bottom: 0px;
+  background-color: #F4F7F8;
 }
-
+.patient h3 P
 .patient p {
   color: black;
-  padding-left: 2em;
-  padding-right: 2em;
-  text-align: justify;
+  padding: 1em;
+  text-align: left;
   padding-bottom: 0px;
+}
+
+ .patients a {
+   color: black;
 }
 
 .patient .money {
