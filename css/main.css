@@ -232,7 +232,7 @@ li {
 }
 
 .process {
-  clear: left;
+  clear: both;
   background-color: #FDD250;
   color: #4A5C66;
   text-align: center;
@@ -245,12 +245,13 @@ li {
 }
 
 .step {
-  float: left;
+  display: inline-block;
   width: 33%;
   line-height: 1;
 }
 
 .process .button {
+  clear: both;
   color: #4A5C66;
   border: 1px solid #4A5C66;
   text-align: none;
@@ -355,10 +356,12 @@ li {
 .footnav li {
   display: inline-block;
   padding-right: .5em;
+  padding-top: 2em;
 }
 
 .infonav {
 float: left;
+padding-top: 2em;
 }
 
 .infonav li {
@@ -370,6 +373,8 @@ float: left;
   font-size: .75em;
   color: #7B848A;
   float: left;
+  padding-top: 3em;
+  padding-left: 5px;
 }
 
 
