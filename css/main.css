@@ -122,6 +122,8 @@ li {
   list-style-type: none;
 }
 
+
+
 .note {
   font-style: italic;
   font-size: .8em;
@@ -211,24 +213,47 @@ li {
   margin-left: 2em;
   width: 330px;
   border: red 1px solid;
-  text-align: center;
-  padding-bottom: 0px;
-  background-color: #F4F7F8;
-}
-.patient h3 P
-.patient p {
-  color: black;
-  padding: 1em;
   text-align: left;
   padding-bottom: 0px;
+  background-color: #F4F7F8;
+  margin-top: 1em;
 }
 
- .patients a {
-   color: black;
+.patients .text {
+  color: black;
+}
+.patient p {
+  color: black;
+  padding: .2em;
+  text-align: left;
+  padding-bottom: 0px;
+  display: inline-block;
 }
 
-.patient .money {
-  text-align: center;
+ .patients .readmore {
+   color: #00B1DA;
+}
+
+.patients a {
+  color: black;
+}
+
+.patients progress {
+  width: 100%;
+  margin-left: 0px;
+  padding: 0px;
+  display: inline-block;
+  color: #FFC700;
+}
+.raised {
+  text-align: left;
+  margin-left: 2em;
+  font-size: .8em;
+}
+.togo {
+  font-size: .8em;
+  text-align: left;
+  margin-left: 8em;
 }
 .patients .button {
   margin-left: 40%;
